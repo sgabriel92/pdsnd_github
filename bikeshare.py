@@ -23,7 +23,7 @@ def get_filters():
     while city not in cities:
         city = input("Which city do you want to have a closer look at? Choose one of Chicago, New York City or Washington: ").lower()
         if city not in cities:  
-            print('try again!')
+            print('Try again!')
         else:
             break
     print("\nYou chose, {}!".format(city))
@@ -210,7 +210,7 @@ def raw_data(df):
         elif x == 'no':
             break
         else:
-            print('Wrong Input. Try again.')
+            print('Wrong Input. Try again!')
         x = input('\nDo you want to see more lines of the data? Yes or No?\n ').lower()
         
 
