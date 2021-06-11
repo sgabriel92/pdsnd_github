@@ -204,7 +204,7 @@ def raw_data(df):
         elif x == 'no':
             break
         else:
-            print('Wrong Input. Try again.')
+            print('Wrong Input. Try again!')
         x = input('\nDo you want to see more lines of the data? Yes or No?\n ').lower()
         
 
