@@ -193,6 +193,12 @@ def user_stats(df):
     print('-'*40)
 
 def raw_data(df):
+    """
+    Asks user if raw data should be displayed. User is asked again if evene more line should be displayed.
+
+    Returns:
+        Five rows of raw data
+    """
     x = input('\nDo you want to see a preview of the Raw Data? Yes or No?\n ').lower()
     a = 0
     b = 5
